@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adriana Kustry</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-black">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white bg-opacity-80 backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-semibold tracking-widest">ADRIANA KUSTRY</h1>
+      <nav class="space-x-6 text-sm uppercase tracking-wider">
+        <a href="#collections" class="hover:underline">Kolekcje</a>
+        <a href="#about" class="hover:underline">O mnie</a>
+        <a href="#contact" class="hover:underline">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="h-screen w-full relative">
+    <img src="https://source.unsplash.com/1920x1080/?fashion,model" alt="Adriana Kustry" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+      <h2 class="text-white text-5xl md:text-7xl tracking-wider font-light">Adriana Kustry</h2>
+    </div>
+  </section>
+
+  <!-- COLLECTIONS -->
+  <section id="collections" class="py-20 px-6 max-w-7xl mx-auto">
+    <h3 class="text-3xl md:text-4xl mb-12 text-center">Kolekcje</h3>
+    <div class="grid md:grid-cols-2 gap-10">
+      <div class="group overflow-hidden">
+        <img src="https://source.unsplash.com/800x1000/?fashion,black" class="w-full h-auto transform group-hover:scale-105 transition duration-500">
+        <p class="mt-4 text-lg tracking-wide">Jesień / Zima 2025</p>
+      </div>
+      <div class="group overflow-hidden">
+        <img src="https://source.unsplash.com/800x1000/?fashion,white" class="w-full h-auto transform group-hover:scale-105 transition duration-500">
+        <p class="mt-4 text-lg tracking-wide">Wiosna / Lato 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-3xl mx-auto text-center">
+      <h3 class="text-3xl md:text-4xl mb-6">O Projektantce</h3>
+      <p class="text-lg leading-relaxed">
+        Adriana Kustry to nowa twarz w świecie mody, łącząca architektoniczne formy z subtelną kobiecością. Jej projekty są odpowiedzią na potrzebę elegancji i wyrafinowania we współczesnym świecie. Tworzy dla kobiet, które wiedzą, czego chcą.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black text-white py-10 px-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+      <p class="text-sm uppercase tracking-wide">&copy; 2025 Adriana Kustry</p>
+      <div class="space-x-6 text-sm">
+        <a href="#" class="hover:underline">Instagram</a>
+        <a href="#" class="hover:underline">Lookbook</a>
+        <a href="#" class="hover:underline">Kontakt</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+Add homepage for Adriana Kustry
